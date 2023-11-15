@@ -1,0 +1,20 @@
+{
+    "name": "hashmapsjs",
+    "version": "0.0.1",
+    "description": "This is a library that makes it a lot easier to work with hashmaps",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Origincookie122/HashMapsJS.git"
+    },
+    "author": "origincookie122",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Origincookie122/HashMapsJS/issues"
+    },
+    "homepage": "https://github.com/Origincookie122/HashMapsJS#readme"
+  }
+  
