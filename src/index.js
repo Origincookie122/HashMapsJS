@@ -7,9 +7,9 @@ var hashmap = new HashMap(10);
 
 (async () => {
     try {
-      const hashedString = await hashmap.hash(string);
-      await hashmap.insert(string)
-      console.log(hashmap.table);
+      var result = await hashmap.insert(string)
+      console.log(result);
+      console.log(hashmap.table[result['hash']])
     } catch (error) {
       console.error(error);
     }
