@@ -40,7 +40,7 @@ class HashMap {
             try {
                 const hashedString = await this.hash(v);
                 this.table[hashedString].push(v);
-                resolve(hashedString);
+                resolve({hash: hashedString, value: v});
             } catch (error) {
                 reject(error);
             }
