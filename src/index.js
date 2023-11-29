@@ -4,7 +4,9 @@ var array = [];
 var string = "hello"
 var hashmap = new HashMap(10);
 
-
+/**
+ * Test Code Example
+ */
 (async () => {
     try {
       var result = await hashmap.insert(string)
