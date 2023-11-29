@@ -2,7 +2,7 @@
     "name": "hashmapsjs",
     "version": "0.0.1",
     "description": "This is a library that makes it a lot easier to work with hashmaps",
-    "main": "./src/index.js",
+    "main": "./src/HashMaps/hashmaps.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
